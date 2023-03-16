@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #connectbtn, #connectbtn1, #deconnectbtn{
     background-color: rgba(255, 192, 203, 0.89);
 }
@@ -43,50 +42,4 @@
         font-size: 50px;
     }
     
-=======
-#connectbtn, #connectbtn1, #deconnectbtn{
-    background-color: rgba(255, 192, 203, 0.89);
-}
-.titre{
-    font-size: 80px;
-    font-style: italic;
-}
-.welcome{
-    color: rgba(255, 192, 203, 0.89) ;
-    font-weight: bold;
-}
-/* ADMIN */
-.bga{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.39),rgba(0, 0, 0, 0.697)), url('../images/femme_noire_featured_image_2450x.webp');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
- 
-/* USER */
-.bgu{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.39),rgba(0, 0, 0, 0.697)), url('../images/25873aa6104f06fe3ac93741c3aba196da86dd31_creationabayarobehijabvetementfemmesmusulmane2022.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-
-/* GUEST */
-.bgg{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.39),rgba(0, 0, 0, 0.697)), url('../images/clean-beauty.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-@media (max-width: 522px) {
-    .titre{
-        font-size: 50px;
-    }
-    
->>>>>>> ff6a486ff14cb53e5d05de2a01c635b3c6c50430
   }
