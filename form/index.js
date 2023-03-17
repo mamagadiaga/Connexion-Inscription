@@ -25,16 +25,9 @@ const app = initializeApp(firebaseConfig);
 // Initialize Cloud Firestore and get a reference to the service
 const db = getFirestore(app);
 
-// Vider les champs
-function vider() {
-  document.getElementById("nom1").value = "";
-  let email1 = document.getElementById("email1").value;
-  let mdp1 = document.getElementById("mdp1").value;
-  let status1 = document.getElementById("status1").value; 
-}
 
 connectbtn1.addEventListener("click", (e) => {
-  e.preventDefault();
+
   let nom1 = document.getElementById("nom1").value;
   let email1 = document.getElementById("email1").value;
   let mdp1 = document.getElementById("mdp1").value;
@@ -51,9 +44,14 @@ connectbtn1.addEventListener("click", (e) => {
     mdp1: mdp1,
     status1: status1
   }); 
+ 
   alert("Utilisateur ajouté avec succes");
-  window.location.href = "./index.html";
   }  
+
+   // Fermer le modal
+   let modal = document.getElementById('exampleModal');
+   let modalBootstrap = bootstrap.Modal.getInstance(modal);
+   modalBootstrap.hide();
 });
 
 
